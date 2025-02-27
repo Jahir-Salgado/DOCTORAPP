@@ -1,6 +1,6 @@
 // Función para el botón de Zoom
 document.getElementById('zoomButton').addEventListener('click', function() {
-    const zoomLink = "https://us05web.zoom.us/j/88392875208?pwd=Tgvj6kUDFvOEVbXj2uaZHZbXyme7S5.1";
+    const zoomLink = "https://us05web.zoom.us/j/82789212171?pwd=m4wKaRwRNbVv3RwERha5wuFaZRqXw1.1";
     window.open(zoomLink, "_blank");
 });
 
