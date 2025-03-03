@@ -37,7 +37,11 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
         alert("Error en el login: " + error.message);
     } else {
         alert("Inicio de sesión exitoso. Redirigiendo a DoctorApp...");
-        window.location.href = "indexinicio.html"; // Redirigir a DoctorApp
+
+        // Mostrar el enlace y redirigir automáticamente
+        const goToIndexInicio = document.getElementById('goToIndexInicio');
+        goToIndexInicio.style.display = 'block'; // Mostrar el enlace
+        window.location.href = "indexinicio.html"; // Redirigir automáticamente
     }
 });
 
