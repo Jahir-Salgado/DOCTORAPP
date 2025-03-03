@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #accff3;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(196, 40, 35, 0.1);
+}
+/* Estilos para el botón de videollamada */
+#zoomButton {
+    padding: 10px 20px; /* Aumenta el padding para hacer el botón más grande */
+    font-size: 15px; /* Aumenta el tamaño de la fuente */
+    font-style:initial; /*
+    width: auto; /* Ajusta el ancho según el contenido */
+}
+.nav-tabs {
+    margin-bottom: 30px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+#chatHistory {
+    height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 30px;
+    background-color: #f9f9f9;
+}
